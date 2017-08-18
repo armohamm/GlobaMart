@@ -27,6 +27,34 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">    
+            <div class="col-xs-8 col-xs-offset-2">
+                <div class="input-group">
+                    <div class="input-group-btn search-panel">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <span id="search_concept">Categories</span> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" id="category_dropdown_menu" >
+                        <li><a href="#contains">Contains</a></li>
+                        <li><a href="#its_equal">It's equal</a></li>
+                        <li><a href="#greather_than">Greather than ></a></li>
+                        <li><a href="#less_than">Less than < </a></li>
+                        <li class="divider"></li>
+                        <li><a href="#all">Anything</a></li>
+                        </ul>
+                    </div>
+                    <input type="hidden" name="search_param" value="all" id="search_param">         
+                    <input type="text" class="form-control" name="x" placeholder="Search term...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
@@ -35,8 +63,61 @@
         </footer>
     </div>
 
+    <script type="text/x-handlebars-template" id="searchbar_product_category">
+        <td>
+            <select class="sel_interface">
+                <option value="">Select Interface</option>
+                {{#each nics}}
+                <option value="{{nicId}}" {{#compare ../selectedNic '==' nicId}}selected{{/compare}}>{{nicName}}</option>
+                {{/each}}
+            </select>
+        </td>
+        <td>
+            <input type="text" class="gateway_ip_input" value="{{selectedGatewayIp}}" />
+            <div class="alert alert-danger hide" id="gateway_ip_error"></div>
+        </td>
+        <td>
+            <button class="btn btn-info saveBtn" disabled>Save</button>&nbsp;
+            <button class="btn">Cancel</button>
+        </td>
+    </script>
+
+    <script type="text/javascript">
+        var AddDefaultMenu = function(e){
+            $("#category_dropdown_menu").html("<li><a href="#all">Anything</a></li>");
+        };
+
+        $(document).ready(function(e){
+            $.ajax({
+                type : "GET",
+                url : "api/products/types",
+                contentType : "application/json; charset=utf-8",
+                dataType : "json",
+                data : JSON.stringify(params)
+            }).done(function(response){
+                if(response.d.ReturnCode !== 0) {
+                    $("#category_dropdown_menu").html(
+                        Handlebars.compile($("#searchbar_product_category").html())(response.d.Result)
+                    );
+                }
+                else{
+                    AddDefaultMenu(null);
+                }    
+            }).fail(AddDefaultMenu);      
+
+            $('.search-panel .dropdown-menu').find('a').click(function(e) {
+                e.preventDefault();
+                var param = $(this).attr("href").replace("#","");
+                var concept = $(this).text();
+                $('.search-panel span#search_concept').text(concept);
+                $('.input-group #search_param').val(param);
+            });
+        });
+    </script>
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/handlebar")
     @RenderSection("scripts", required: false)
 </body>
 </html>

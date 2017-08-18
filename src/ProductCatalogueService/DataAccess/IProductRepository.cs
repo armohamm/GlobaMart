@@ -11,7 +11,7 @@ namespace ProductCatalogueService.DataAccess
     {
         IList<Product> GetProducts(string name, string type);
         IList<Product> GetProducts(string type);
-        bool AddProduct(Product product);
+        Product GetProduct(int Id);
         IList<Product> GetAllProducts();
         IList<string> GetProductsType();
     }

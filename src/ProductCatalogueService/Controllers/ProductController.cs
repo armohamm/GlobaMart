@@ -34,27 +34,6 @@ namespace ProductCatalogueService.Controllers
             }
         }
 
-        [Route("api/products/{name}/{type}")]
-        public IHttpActionResult Get(string name, string type)
-        {
-            try
-            {
-                var products = Repository.GetProducts(name, type);
-                if (products.Count > 0)
-                {
-                    return Ok(products);
-                }
-                else
-                {
-                    return NotFound();
-                }
-            }
-            catch
-            {
-                return InternalServerError();
-            }
-        }
-
         [Route("api/products/types")]
         public IHttpActionResult GetTypes()
         {
@@ -68,11 +47,33 @@ namespace ProductCatalogueService.Controllers
             }
         }
 
-        public IHttpActionResult Post(Product p)
+        [Route("api/products/{Id}")]
+        public IHttpActionResult Get(int Id)
         {
             try
             {
-                return Ok(Repository.AddProduct(p));
+                return Ok(Repository.GetProduct(Id));
+            }
+            catch
+            {
+                return InternalServerError();
+            }
+        }
+
+        [Route("api/products/{type}/{name}")]
+        public IHttpActionResult Get(string name, string type)
+        {
+            try
+            {
+                var products = Repository.GetProducts(name, type);
+                if (products.Count > 0)
+                {
+                    return Ok(products);
+                }
+                else
+                {
+                    return NotFound();
+                }
             }
             catch
             {

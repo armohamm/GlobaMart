@@ -14,17 +14,13 @@ namespace ProductCatalogueService.DataAccess
             ProductData = new ProductDataContext();
         }
 
-        public bool AddProduct(Product product)
+        public Product GetProduct(int Id)
         {
-            if(!ProductData.Products.Contains(product))
-            {
-                ProductData.Products.Add(product);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            var product = from p in ProductData.products
+                          where p.Id.Equals(Id)
+                          select p;
+
+            return p; 
         }
 
         public IList<Product> GetAllProducts()

@@ -19,19 +19,17 @@
                 <img class="img-circle" />
                 @Html.ActionLink("GlobaMart stores", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            <div class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav head-btn-container">
+                    <li> 
+                        <button class="btn btn-sm">@Html.ActionLink("Login", "Login", "User")</button>
+                    </li>
                 </ul>
+                <img class="img-circle" />
             </div>
         </div>
-    </div>
-
-    <div class="navbar navbar-inverse">
         <div class="container navbar-fixed-search">
-           <div class="row">
+            <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <div class="input-group">
                         <div class="input-group-btn search-panel">
@@ -39,8 +37,6 @@
                                 <span id="search_concept">Categories</span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu" id="category_dropdown_menu">
-                                <li><a href='#all'>All</a></li>
-                                <li id="list-item-divider" class='divider'></li>
                                 <!-- Product categories here -->
                             </ul>
                         </div>
@@ -48,6 +44,9 @@
                         <input type="text" class="form-control" name="x" placeholder="Search product by name...">
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                        </span>
+                        <span class="btn-cart">
+                            <button class="btn btn-default btn-cart" type="button">cart</button>
                         </span>
                     </div>
                 </div>
@@ -63,10 +62,17 @@
         </footer>
     </div>
 
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/handlebar")
+    @RenderSection("scripts", required: false)
+
     <script type="text/x-handlebars-template" id="searchbar_product_category">
-        {{#each Categories}}
-        <li><a href="#{{Category}}">{{Category}}</a></li>
-        {{/each}}
+            <li><a href='#all'>All</a></li>
+            <li id="list-item-divider" class='divider'></li>
+            {{#each Categories}}
+            <li><a href="#{{Category}}">{{Category}}</a></li>
+            {{/each}}
     </script>
 
     <script type="text/javascript">
@@ -84,7 +90,7 @@
                 data: JSON.stringify(params)
             }).done(function (response) {
                 if (response.d.ReturnCode !== 0) {
-                    $("#category_dropdown_menu").append(
+                    $("#category_dropdown_menu").html(
                         Handlebars.compile($("#searchbar_product_category").html())(response.d.Result)
                     );
                 }
@@ -99,11 +105,6 @@
             });
         });
     </script>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/handlebar")
-    @RenderSection("scripts", required: false)
 
 </body>
 </html>

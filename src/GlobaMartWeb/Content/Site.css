@@ -27,3 +27,18 @@ textarea {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.head-btn-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+.deal-column {
+    height: 200px;
+    width: 300px;
+}
+
+.btn-cart {
+    left:10px;
+    margin-left:5px;
+}

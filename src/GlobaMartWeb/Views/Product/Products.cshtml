@@ -4,4 +4,47 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+ <script type="text/x-handlebars-template" id="products_list">
+
+    {{#each}}
+    <div class="row" id="#" + {{id}} onclick="showProductDetails("+ {{id}} +")" >
+        <h2>{{name}}</h2>
+        <p><img class="deal-column" src="~/images/products/"+{{id}}+".jpg" /></p>
+    </div>
+    {{/each}}
+
+</script>
+
+<script type="text/javascript">
+
+    var showProductDetails = function(e){
+            $(location).attr("pathname", "details/"+ e.stringify());
+        };
+    
+
+    $(document).ready(function(e){
+        $.ajax({
+            type : "GET",
+            url : "api/products/type/{typeid}",
+            contentType : "application/json; charset=utf-8",
+            dataType : "json",
+            data : JSON.stringify(params)
+        }).done(function(response){
+            if(response.d.ReturnCode !== 0) {
+                $("#products").html(
+                    Handlebars.compile($("#products_list").html())(response.d.Result)
+                );
+            }
+            else{
+                
+            }    
+        }).fail(function(){
+            
+        });
+    });
+</script>
+
+<p>Products &raquo;</p>
+<hr/>
+<div id="products"></div>
+<br/>

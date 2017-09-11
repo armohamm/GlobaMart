@@ -60,6 +60,27 @@ namespace ProductCatalogueService.Controllers
             }
         }
 
+        [Route("api/products/type/{typeid}")]
+        public IHttpActionResult Get(string typeid)
+        {
+            try
+            {
+                var products = Repository.GetProducts(typeid);
+                if (products.Count > 0)
+                {
+                    return Ok(products);
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            catch
+            {
+                return InternalServerError();
+            }
+        }
+
         [Route("api/products/{type}/{name}")]
         public IHttpActionResult Get(string name, string type)
         {

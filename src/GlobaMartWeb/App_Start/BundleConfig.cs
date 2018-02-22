@@ -28,7 +28,13 @@ namespace GlobaMartWeb
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/css/bootstrap.min.css",
+                      "~/css/slick.css",
+                      "~/css/slick-theme.css",
+                      "~/css/nouislider.min.css",
+                      "~/css/style.css",
+                      "~/css/font-awesome.min.css"));
         }
     }
 }

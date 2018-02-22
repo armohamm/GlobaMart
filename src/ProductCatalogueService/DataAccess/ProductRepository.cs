@@ -16,7 +16,7 @@ namespace ProductCatalogueService.DataAccess
 
         public Product GetProduct(int Id)
         {
-            var product = from p in ProductData.products
+            var product = from p in ProductData.Products
                           where p.Id.Equals(Id)
                           select p;
 

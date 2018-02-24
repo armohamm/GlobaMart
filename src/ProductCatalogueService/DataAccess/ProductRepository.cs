@@ -20,7 +20,7 @@ namespace ProductCatalogueService.DataAccess
                           where p.Id.Equals(Id)
                           select p;
 
-            return p; 
+            return product.FirstOrDefault(); 
         }
 
         public IList<Product> GetAllProducts()

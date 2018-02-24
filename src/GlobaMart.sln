@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPricingService", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobaMartWeb", "GlobaMartWeb\GlobaMartWeb.csproj", "{E1491024-1868-4EBB-A380-9B330A98F3F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D2528863-05B5-4246-B604-645F51652603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E80F9577-9AF1-437C-9F67-2A4EBBBF9616} = {D2528863-05B5-4246-B604-645F51652603}
+		{9B5F4C33-B226-42FF-B6A7-896FE3166A37} = {D2528863-05B5-4246-B604-645F51652603}
 	EndGlobalSection
 EndGlobal

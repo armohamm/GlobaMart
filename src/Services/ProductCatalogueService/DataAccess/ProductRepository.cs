@@ -31,7 +31,7 @@ namespace ProductCatalogueService.DataAccess
         public IList<Product> GetProducts(string type)
         {
             var products = from p in ProductData.Products
-                           where p.Type.ToLower().Contains(type.ToLower())
+                           where p.TypeId.Equals(type)
                            select p;
 
             return products.ToList<Product>();
@@ -41,17 +41,15 @@ namespace ProductCatalogueService.DataAccess
         {
             var products = from p in ProductData.Products
                            where p.Name.ToLower().Contains(name.ToLower()) && 
-                                 (type.ToLower().Equals("all") || (!type.ToLower().Equals("all") && p.Type.ToLower().Contains(type.ToLower())))
+                                (!String.IsNullOrEmpty(type) && p.TypeId.Equals(type))
                            select p;
 
             return products.ToList<Product>();
         }
 
-        public IList<string> GetProductsType()
+        public IList<Category> GetProductsType()
         {
-            var types = from p in ProductData.Products
-                        select p.Type;
-            return types.Distinct().ToList();
+            return ProductData.Categories;
         }
     }
 }

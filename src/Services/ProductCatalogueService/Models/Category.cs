@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Xml.Linq;
 
 namespace ProductCatalogueService.Models
 {
-    public class Product
+    public class Category
     {
         public string Id
         {
@@ -20,7 +19,7 @@ namespace ProductCatalogueService.Models
             internal set;
         }
 
-        public string TypeId
+        public IList<Category> SubCategories
         {
             get;
             internal set;

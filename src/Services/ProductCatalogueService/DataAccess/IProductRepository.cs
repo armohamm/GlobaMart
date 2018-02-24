@@ -13,6 +13,6 @@ namespace ProductCatalogueService.DataAccess
         IList<Product> GetProducts(string type);
         Product GetProduct(int Id);
         IList<Product> GetAllProducts();
-        IList<string> GetProductsType();
+        IList<Category> GetProductsType();
     }
 }

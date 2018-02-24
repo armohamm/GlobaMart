@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogueService", "ProductCatalogueService\ProductCatalogueService.csproj", "{E80F9577-9AF1-437C-9F67-2A4EBBBF9616}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogueService", "Services\ProductCatalogueService\ProductCatalogueService.csproj", "{E80F9577-9AF1-437C-9F67-2A4EBBBF9616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPricingService", "ProductPricingService\ProductPricingService.csproj", "{9B5F4C33-B226-42FF-B6A7-896FE3166A37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductPricingService", "Services\ProductPricingService\ProductPricingService.csproj", "{9B5F4C33-B226-42FF-B6A7-896FE3166A37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobaMartWeb", "GlobaMartWeb\GlobaMartWeb.csproj", "{E1491024-1868-4EBB-A380-9B330A98F3F8}"
 EndProject

@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Category Id="" Name="Men’s Fashion" >
+    <SubCategory Id="" Name="Shirts">
+      <Type Id="" Name="Casual shirts">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Formal shirts">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Linen shirts">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Pastel shades">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Sunglasses">
+      <Type Id="" Name="Aviators">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wayfarer">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Round">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wraparound">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Jeans">
+      <Type Id="" Name="Relaxed">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Slim Fit">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Skinny">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Straight Arrow">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Wallets">
+      <Type Id="" Name="Fabric">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Leather">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Felt">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Watches">
+      <Type Id="" Name="Chronograph">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Analog Display">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Digital Display">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>  
+  </Category>
+  <Category Id="" Name="Women’s Fashion" >
+    <SubCategory Id="" Name="Western wear">
+      <Type Id="" Name="Tops">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Jeans">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Leggings">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Jackets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Sweaters">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Ethicnic wear">
+      <Type Id="" Name="Sarees">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Salwar suits">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Kurtas">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Lehangas">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Shawls">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Watches">
+      <Type Id="" Name="Digital display">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Analog display">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Leather strap">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Metal strap">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Handbags">
+      <Type Id="" Name="Slings">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Totes">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Satchel">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Hobos">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Mini backpacks">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Sunglasses">
+      <Type Id="" Name="Aviators">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wayfarers">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Round">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wraparound">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+  </Category>
+  <Category Id="" Name="TV | Home Appliances" >
+    <SubCategory Id="" Name="Televisions">
+      <Type Id="" Name="Smart TVs">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="4K UHD">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Large Screen">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Music Systems">
+      <Type Id="" Name="Home theatres">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="DVD players">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Blueray players">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Washing Machines">
+      <Type Id="" Name="Top load">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Front load">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Semi automatic">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Washer">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Refrigerators">
+      <Type Id="" Name="Single door">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Duble door">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Multi door">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Side door">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Air Conditioners">
+      <Type Id="" Name="Invertor ACs">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Split ACs">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Window ACs">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+  </Category>
+  <Category Id="" Name="Mobile | Computer | Accessories" >
+    <SubCategory Id="" Name="Smart Phones">
+      <Type Id="" Name="Android">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="iOS">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Windows">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Networking devices">
+      <Type Id="" Name="Routers">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Modems">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Dongles">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Range Extenders">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Printers">
+      <Type Id="" Name="Inkjet">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Laser">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Ink tank">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Dot matrix">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Computer accessories">
+      <Type Id="" Name="Keyboard">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="mouse">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="monitors">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Speakers">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="External Storage">
+      <Type Id="" Name="Memory cards">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="USB drives">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Hard drives">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="SSD drives">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Keyboards">
+      <Type Id="" Name="">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+  </Category>
+  <Category Id="" Name="Kitchen | Home | Furnishing" >
+    <SubCategory Id="" Name="Kitchen">
+      <Type Id="" Name="Chimneys">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Gas stoves">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="kitchen containers">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Cookware sets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Home decor">
+      <Type Id="" Name="Paintings">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Posters">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Curtains">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wind chimes">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Home Storage">
+      <Type Id="" Name="Cloth hangers">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Laundry bags">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wardrobes">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Storage baskets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Kitchen Containers">
+      <Type Id="" Name="Lunch boxes">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Water bottles">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Jars">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Flasks">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+  </Category>
+  <Category Id="" Name="Sports | Fitness" >
+    <SubCategory Id="" Name="Cricket">
+      <Type Id="" Name="Bats">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Balls">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wickets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Helmets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Gloves">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Bells">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Badminton">
+      <Type Id="" Name="Racquets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Shuttlecocks">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Nets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Strings">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Racquets Grips">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Cycling">
+      <Type Id="" Name="Geared Cycles">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Non Geared Cycles">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Helmets">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Locks">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Safety lights">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Football">
+          <Type Id="" Name="Football balls">
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+          </Type>
+          <Type Id="" Name="Shin guards">
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+          </Type>
+          <Type Id="" Name="Goalkeeper Gloves">
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+          </Type>
+          <Type Id="" Name="Nets">
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+            <Product Id="" Name="" />
+          </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Running">
+      <Type Id="" Name="Running Shoes">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Caps">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Socks">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Wrist Bands">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+    <SubCategory Id="" Name="Fitness Accessories">
+      <Type Id="" Name="Body Bars">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Treadmills">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Elliptical Trainers">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+      <Type Id="" Name="Exercise Bikes">
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+        <Product Id="" Name="" />
+      </Type>
+    </SubCategory>
+  </Category>
+</Products>

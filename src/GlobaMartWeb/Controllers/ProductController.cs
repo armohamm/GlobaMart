@@ -15,14 +15,14 @@ namespace GlobaMartWeb.Controllers
             return View();
         }
 
-        public ActionResult Products()
+        public ActionResult Products(string type)
         {
             ViewBag.Message = "Your products page.";
 
             return View();
         }
 
-        public ActionResult Details()
+        public ActionResult Details(string type, int id)
         {
             ViewBag.Message = "Your product details page.";
 

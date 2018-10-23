@@ -47,7 +47,7 @@ namespace ProductCatalogueService.DataAccess
             return products.ToList<Product>();
         }
 
-        public IList<Category> GetProductsType()
+        public IList<Category> GetProductCategories()
         {
             return ProductData.Categories;
         }

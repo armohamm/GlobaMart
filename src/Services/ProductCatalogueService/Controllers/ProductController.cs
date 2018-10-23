@@ -39,7 +39,7 @@ namespace ProductCatalogueService.Controllers
         {
             try
             {
-                return Ok(Repository.GetProductsType());
+                return Ok(Repository.GetProductCategories());
             }
             catch
             {

@@ -102,26 +102,7 @@
                             <div class="custom-menu">
                                 <div id="shopping-cart">
                                     <div class="shopping-cart-list">
-                                        <div class="product product-widget">
-                                            <div class="product-thumb">
-                                                <img src="./img/thumb-product01.jpg" alt="">
-                                            </div>
-                                            <div class="product-body">
-                                                <h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
-                                                <h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
-                                            </div>
-                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
-                                        </div>
-                                        <div class="product product-widget">
-                                            <div class="product-thumb">
-                                                <img src="./img/thumb-product01.jpg" alt="">
-                                            </div>
-                                            <div class="product-body">
-                                                <h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
-                                                <h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
-                                            </div>
-                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
-                                        </div>
+                                        <!-- Shopping cart items list goes here -->
                                     </div>
                                     <div class="shopping-cart-btns">
                                         <button class="main-btn">View Cart</button>
@@ -462,7 +443,6 @@
         <!-- /container -->
     </div>
     <!-- /NAVIGATION -->
-    
     <!-- BREADCRUMB -->
     <div id="breadcrumb">
         <div class="container">
@@ -473,17 +453,15 @@
         </div>
     </div>
     <!-- /BREADCRUMB -->
-    
     <!-- section -->
     <div class="section">
         <!-- container -->
         <div class="container body-content">
-            @RenderBody()    
+            @RenderBody()
         </div>
         <!-- /container -->
     </div>
     <!-- /section -->
-
     <!-- FOOTER -->
     <footer id="footer" class="section section-grey">
         <!-- container -->
@@ -587,11 +565,11 @@
     @RenderSection("scripts", required: false)
 
     <script type="text/x-handlebars-template" id="searchbar_product_category">
-            <option value='all'>All</option>
-            <option id="list-item-divider" class='divider'> - </option>
-            {{#each Categories}}
-            <option value="{{Category}}">{{Category}}</option>
-            {{/each}}
+        <option value='all'>All</option>
+        <option id="list-item-divider" class='divider'> - </option>
+        {{#each Categories}}
+        <option value="{{Category}}">{{Category}}</option>
+        {{/each}}
     </script>
 
     <script type="text/x-handlebars-template" id="sidebar_product_category">
@@ -599,17 +577,33 @@
             <h3 class="list-links-title">{{Name}}</h3>
         </li>
         {{#each SubCategories}}
-            <li id="{{Name}}">{{Name}}</li>
+        <li id="{{Name}}" href="/{{Name}}">{{Name}}</li>
         {{/each}}
     </script>
 
+    <script type="text/x-handlebars-template" id="cart_items">
+        {{#each Product}}
+        <div class="product product-widget">
+            <div class="product-thumb">
+                <img src="{{ImagePath}}" alt="">
+            </div>
+            <div class="product-body">
+                <h3 class="product-price">{{Price}} <span class="qty">{{Quantity}}</span></h3>
+                <h2 class="product-name"><a href="#">{{Name}}</a></h2>
+            </div>
+            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+        </div>
+        {{/each}}
+    </script>
+    
     <script type="text/javascript">
         $(document).ready(function (e) {
-            
+            //
             var AddDefaultMenu = function (e) {
                 $("#category_dropdown_menu").html("<li><a href='#all'>All</a></li><li class='divider'></li>");
             };
 
+            //
             $.ajax({
                 type: "GET",
                 url: "api/products/types",
@@ -618,15 +612,37 @@
                 data: JSON.stringify(params)
             }).done(function (response) {
                 if (response.d.ReturnCode !== 0) {
+                    //
                     $("#category_dropdown_menu").html(
                         Handlebars.compile($("#searchbar_product_category").html())(response.d.Result)
+                    );
+                    //
+                    $("#").html(
+                        Handlebars.compile($("sidebar_product_category").html())(response.d.Result)
                     );
                 }
             });
 
-            $('.search-panel .dropdown-menu').find('a').click(function(e) {
+            //
+            $.ajax({
+                type: "GET",
+                url: "api/shoppingcart",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify(params)
+            }).done(function (response) {
+                if (response.d.ReturnCode !== 0) {
+                    //
+                    $("#shopping-cart-list").html(
+                        Handlebars.compile($("#cart_items").html())(response.d.Result)
+                    );
+                }
+            });
+
+            //
+            $('.search-panel .dropdown-menu').find('a').click(function (e) {
                 e.preventDefault();
-                var param = $(this).attr("href").replace("#","");
+                var param = $(this).attr("href").replace("#", "");
                 var concept = $(this).text();
                 $('.search-panel span#search_concept').text(concept);
                 $('.input-group #search_param').val(param);
